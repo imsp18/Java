@@ -7,7 +7,10 @@ public class Inputs {
         System.out.print("Enter your name: "); // take input from the user
         String name = scanner.nextLine(); // read the input from the user
 
-        System.out.println("My name is " + name); // print the input
+        System.out.printf("Hello %s. How old are you?", name); // print the input
+        int age =  scanner.nextInt(); //
+
+        System.out.printf("%d is an excellent age to start programming: ", age); 
 
         scanner.close(); // close the scanner
     }
