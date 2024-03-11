@@ -1,7 +1,11 @@
 public class IfElse {
     public static void main(String[] args) {
-        if (20 > 18) {
-          System.out.println("20 is greater than 18"); // obviously
-        }  
+        int time = 18;
+        if (time < 10){
+           System.out.println("Goof morning.");
+        } 
+        else{
+            System.out.println("Good evening.");
+        }
       }
 }
